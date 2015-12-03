@@ -5,13 +5,13 @@
          version="3.1">
 
     <servlet>
-        <servlet-name>LoanCalculator</servlet-name>
-        <servlet-class>LoanCalculator</servlet-class>
+        <servlet-name>MinMax</servlet-name>
+        <servlet-class>MinMax</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>LoanCalculator</servlet-name>
-        <url-pattern>/loan-calculator</url-pattern>
+        <servlet-name>MinMax</servlet-name>
+        <url-pattern>/MinMax</url-pattern>
     </servlet-mapping>
 
 </web-app>

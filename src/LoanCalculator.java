@@ -22,13 +22,6 @@ public class LoanCalculator extends HttpServlet {
         try {
             JSONObject inputValues = new JSONObject(inputString);
 
-
-
-
-
-
-
-
             loanAmount = inputValues.getDouble("amount");
             System.out.print("HERE!!!!"+loanAmount);
             annualInterestRateInPercent = inputValues.getDouble("rate");
